@@ -19,6 +19,22 @@ public class Main {
         else{
             System.out.println("đây không là số nguyên tố!");
         }
+        // số hoàn hảo: số hoàn chỉnh-hoàn thiện=hoàn thành, là số nguyên dương
+        // mà tổng các ước nguyên dương của nó bằng chính nó
+        int sum = 1;
+        for (int j = 2; j < num ; j++) {
+            if(num % j == 0){
+                sum += j;
+            }
+        }
+
+        if (sum == num){
+            System.out.println("đây là số hoàn hảo");
+        }else{
+            System.out.println("đây k phải là số hoàn hảo");
+        }
+
+        // bài 3: cho 2 số a-b, tạo menu 4 lựa chọn: tổng-tích-hiệu-thương
 
     }
 }
