@@ -1,0 +1,7 @@
+1, cho một mảng: [2,4,5,7,5,11,0,5,3,1]
+a, sắp xếp tăng dần
+b, sắp xếp giảm dần
+sd thuật toán sủi bọt
+2, không sd vòng lặp in ra tên của bạn 100 lần
+3, viết chương trình blacklist đơn giản với nghiệp vụ sau:
+nhập vào một chuỗi, tìm và che các từ có chửi tục tiếng anh bằng dấu ***
